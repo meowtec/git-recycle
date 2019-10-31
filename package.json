@@ -1,0 +1,28 @@
+{
+  "name": "git-recycle",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "bin": "lib/bin.js",
+  "files": [
+    "lib",
+    "README.md"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^12.12.0",
+    "chalk": "^2.4.2",
+    "typescript": "^3.6.4"
+  },
+  "dependencies": {
+    "lodash": "^4.17.15",
+    "ora": "^4.0.2",
+    "p-iteration": "^1.1.8",
+    "tslib": "^1.10.0"
+  }
+}
