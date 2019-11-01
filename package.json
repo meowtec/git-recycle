@@ -2,6 +2,11 @@
   "name": "git-recycle",
   "version": "1.0.0",
   "description": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/meowtec/git-recycle.git"
+  },
+  "homepage": "https://github.com/meowtec/git-recycle",
   "main": "lib/index.js",
   "scripts": {
     "build": "tsc",
