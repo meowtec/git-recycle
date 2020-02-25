@@ -8,8 +8,8 @@ const [ commandArg ] = args
 if (args.some(arg => arg === '-h' || arg === '--help')) {
   console.log(
     'Usage:\n',
-    'git-recycle [N]     Show recycle commits, limit N = 10 by default',
-    'git-recycle hide    Hide recycle commits',
+    'git-recycle [N]     Show recycle commits, limit N = 10 by default\n',
+    'git-recycle hide    Hide recycle commits\n',
   )
 } else if (commandArg === 'hide') {
   removeRecycleRefs()
