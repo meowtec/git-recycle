@@ -1,0 +1,16 @@
+package.json
+  h_feaba43c515522 3
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "d06b1437a8c70d951d2eb6cc0f46bfb547eff186",
+  "prompts": {},
+  "humans": {
+    "h_feaba43c515522": {
+      "author": "zhubo <zhubo.z@bytedance.com>"
+    }
+  },
+  "attestation_metadata": {},
+  "remote_transcripts": {}
+}
