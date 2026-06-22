@@ -1,10 +1,10 @@
 {
   "name": "git-recycle",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "repository": {
     "type": "git",
-    "url": "https://github.com/meowtec/git-recycle.git"
+    "url": "git+https://github.com/meowtec/git-recycle.git"
   },
   "homepage": "https://github.com/meowtec/git-recycle",
   "main": "lib/index.js",
@@ -12,7 +12,9 @@
     "build": "tsc",
     "prepare": "npm run build"
   },
-  "bin": "lib/bin.js",
+  "bin": {
+    "git-recycle": "lib/bin.js"
+  },
   "files": [
     "lib",
     "README.md"
